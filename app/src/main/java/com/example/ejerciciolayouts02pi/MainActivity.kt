@@ -11,11 +11,5 @@ class MainActivity : AppCompatActivity() {
         //jai maricon
     }
 
-    fun hola() {
-        println("hola")
-    }
 
-    fun adios(){
-        println("ata luego")
-    }
 }
