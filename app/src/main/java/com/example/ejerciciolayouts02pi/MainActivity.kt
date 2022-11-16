@@ -11,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         //jai maricon
     }
 
-    fun adios(){
-        println("adios")
-    }
-
     fun hola() {
         println("hola")
+    }
+
+    fun adios(){
+        println("ata luego")
     }
 }
