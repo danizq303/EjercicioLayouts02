@@ -10,4 +10,8 @@ class MainActivity : AppCompatActivity() {
         //bormas
         //jai maricon
     }
+
+    fun adios(){
+        println("adios")
+    }
 }
