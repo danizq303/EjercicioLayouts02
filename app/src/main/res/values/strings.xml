@@ -7,4 +7,17 @@
     <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
     <string name="producto">Producto</string>
     <string name="subtotal">Subtotal</string>
+
+    <string-array name="estado_civiles">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
+
+    <string-array name="cargos">
+        <item>Ventas</item>
+        <item>Informática</item>
+        <item>Jardinería</item>
+    </string-array>
 </resources>
