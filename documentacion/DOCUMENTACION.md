@@ -2,6 +2,11 @@
 
 ## Introducción
 
+- Grupo: GRUPO 09
+    - Integrantes:
+        - RODRIGO SÁNCHEZ GÓMEZ
+        - DANIEL IZQUIERDO BONILLA
+
 Dadas las pautas a seguir para la realización de este ejercicio, acometemos los ejemplos descritos en su formato indicado.
 
 ## Ejercicios

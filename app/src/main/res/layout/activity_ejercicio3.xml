@@ -65,7 +65,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="30dp"
         android:layout_toEndOf="@+id/estadoCivilText"
-        android:text="Estado Civil"
+        android:text="Cargo"
         android:textSize="18dp" />
 
     <Spinner
