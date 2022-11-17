@@ -409,7 +409,7 @@ El código del Layout propuesto y ejecutado para este ejercicio se muestra a con
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:text="Estado Civil"
-        android:textSize="18dp" />
+        android:textSize="18sp" />
 
     <Spinner
         android:id="@+id/spinnerEstadoCivil"
@@ -430,8 +430,8 @@ El código del Layout propuesto y ejecutado para este ejercicio se muestra a con
         android:layout_marginStart="70dp"
         android:layout_marginTop="30dp"
         android:layout_toEndOf="@+id/estadoCivilText"
-        android:text="Estado Civil"
-        android:textSize="18dp" />
+        android:text="Cargo"
+        android:textSize="18sp" />
 
     <Spinner
         android:id="@+id/spinnerCargo"
@@ -476,213 +476,181 @@ El código del Layout propuesto y ejecutado para este ejercicio se muestra a con
     android:rowCount="1">
 
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="7"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView19"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="8"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView20"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="9"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView21"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#EA4D39"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="÷"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView22"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="4"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView23"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="5"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView24"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="6"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView25"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#EA4D39"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="×"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView26"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="1"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView27"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="2"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView28"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="3"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView29"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#EA4D39"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="-"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView30"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="."
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView31"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="0"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView32"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#00537D"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="="
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textView33"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_width="34dp"
+        android:layout_height="140dp"
         android:layout_columnWeight="1"
-        android:background="#EA4D39"
         android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
         android:text="+"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 </GridLayout>
 ```
 
